@@ -56,3 +56,52 @@ nav p {
     padding: 50px 70px;
     color: #fff;
 }
+/* joing section style  */
+.joinSection{
+    width: 1320px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    justify-items: center;
+    padding-top: 150px;
+    margin-top: 70px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.joinSection p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.join-btn{
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+}
+/* coming soon section */
+.coming-soon{
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.coming-soon .offer{
+    flex-grow: initial;
+}
+.ellipse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ff0000;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.offer-card{
+    width: 400px;
+    padding: 10px;
+}
