@@ -13,7 +13,6 @@ header {
     background-image: url(resources/Banner\ Image.png);
     color: white;
     border-radius: 10px;
-    background-image: linear-gradient(180deg, rgb(15, 14, 14));
 }
 nav {
     text-align: center;
@@ -28,40 +27,32 @@ nav p {
 }
 /* discount section  */
 .discount-section {
-    margin: 50px 0;
+    margin: 50px ;
 }
 .discount {
     text-align: center;
-    width:800px;
-    height: 500px;
+    width:600px;
+    height: 600px;
     margin: auto;
     display: grid;
     align-items: center;
     justify-content: center;
-    line-height: 4px;
+    line-height: 0px;
 }
 /* welcomming section  */
-.welcomming {
-    margin: 150px 0px;
-    display: flex;
-    align-items: center;
+
+.greeting{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
     margin: auto;
-    justify-content: space-between;
-    padding: 50px;
     width: 1320px;
     height: 600px;
-    position: relative;
-    background-image: url(resources/Vectorrr.png);
-    background-repeat: no-repeat;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%); */
+    margin: auto;
 }
-.photo{
-    position: absolute;
-}
-.greeting {
+.welcomming{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
     color: #fff;
-    text-align: left;
-}
-.greeting h2 {
-    font-size: 30px;
 }
