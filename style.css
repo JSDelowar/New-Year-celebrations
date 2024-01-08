@@ -27,7 +27,7 @@ nav p {
 }
 /* discount section  */
 .discount-section {
-    margin: 50px;
+    margin: 20px 20px 150px ;
 }
 .discount {
     text-align: center;
@@ -39,7 +39,7 @@ nav p {
     justify-content: center;
     line-height: 0px;
 }
-.discount h2{
+.discount h2 {
     font-size: 40px;
     font-weight: 700;
 }
@@ -60,8 +60,8 @@ nav p {
     padding: 50px 70px;
     color: #fff;
 }
-.welcomming button{
-    background: tomato ;
+.welcomming button {
+    background: tomato;
     padding: 10px 20px;
     border-radius: 15px;
     color: white;
@@ -130,7 +130,7 @@ nav p {
 .portfolio-section h6 {
     color: #f00;
 }
-.portfolio-section p{
+.portfolio-section p {
     padding-bottom: 10px;
 }
 .portfolio-style {
@@ -141,50 +141,43 @@ nav p {
     gap: 10px 0;
     justify-content: space-between;
 }
-.portfolio div:hover{
-transition: 0.5s ease;
-transform: translateY(20px);
+.portfolio div:hover {
+    transition: 0.5s ease;
+    transform: translateY(20px);
 }
 /* subscribe section  */
 .subscribe-style {
     width: 1320px;
     margin: auto;
+
     text-align: center;
     background-color: antiquewhite;
 }
-.subscribe{
+.subscribe {
     padding: 30px;
-    margin: 30px 0;
-
+    margin: 30px;
 }
-/* .subscribe-btn {
-    border-radius: 20px;
-
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-} */
 .subscribe-btn input {
     position: relative;
     flex: 1;
     outline: none;
     border: none;
     padding: 15px;
-    border-radius: 20px 0 0 20px ;
+    border-radius: 20px 0 0 20px;
     font-size: 20px;
 }
-.subscribe-btn button{
+
+.subscribe-btn button {
     position: absolute;
     border: none;
     outline: none;
-    background: #FF0000;
+    background: #ff0000;
     padding: 15px 20px;
     border-radius: 0 20px 20px 0;
     cursor: pointer;
     font-size: 20px;
     color: white;
 }
-
 /* footer section  */
 footer {
     background-color: #070211;
