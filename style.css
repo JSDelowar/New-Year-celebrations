@@ -56,6 +56,15 @@ nav p {
     padding: 50px 70px;
     color: #fff;
 }
+.welcomming button{
+    background: tomato ;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
 /* joing section style  */
 .joinSection {
     width: 1320px;
