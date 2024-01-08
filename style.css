@@ -39,6 +39,10 @@ nav p {
     justify-content: center;
     line-height: 0px;
 }
+.discount h2{
+    font-size: 40px;
+    font-weight: 700;
+}
 /* welcomming section  */
 
 .greeting {
